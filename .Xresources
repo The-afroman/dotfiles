@@ -1,0 +1,57 @@
+!#include "/home/f/.xcolors"
+!FALLBACK COLORS
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+*.foreground:   #e1bcc8
+*.background:   #161219
+*.cursorColor:  #c7c7c7
+
+! black
+*.color0:       #1d2c47
+*.color8:       #1d2c47
+
+! red
+*.color1:       #d2275a
+*.color9:       #ff2f6d
+
+! green
+*.color2:       #8752ba
+*.color10:      #b66efb
+
+! yellow
+*.color3:       #e15581
+*.color11:      #fb5f90
+
+! blue
+*.color4:       #1e59aa
+*.color12:      #2c84fc
+
+! magenta
+*.color5:       #8752ba
+*.color13:      #b56efa
+
+! cyan
+*.color6:       #4b76b8
+*.color14:      #67a2fd
+
+! white
+*.color7:       #e95986
+*.color15:      #fb89ad
+urxvt*depth: 32
+! urxvt*background: rgba:1600/1200/1900/c800
+
+st.font: Inconsolata:pixelsize=13:antialias=true:autohint=true
+
+URxvt.font: xft:Font Awesome Free:size=12
+URxvt.scrollBar: false
+URxvt.perl-ext-common: default,matcher,font-size
+URxvt.url-launcher: /usr/bin/xdg-open
+URxvt.matcher.button: 1
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+
+! rofi
+
+rofi.combi-modi:    window,drun,ssh
+rofi.theme:         android_notification
+rofi.font:          Inconsolata Nerd Font 14
+rofi.modi:          combi
